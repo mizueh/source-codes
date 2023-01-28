@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <!--internal css-->
+    <style> 
+        /*universal*/
+        *{
+            color:blue;
+        }
+        P{
+            color:red;
+        }
+        .interest{
+            background-color: black !important;
+        }
+        #bio{
+            background-color:brown
+        }
+        #interestID{
+            background-color: aqua;
+        }
+
+        /*specific element*/
+        h1.header1{
+            color:aqua;
+        }
+        h1{
+            color:green;
+        }
+
+        /*child parent element*/
+        ul li a,li{
+            color: hsla(0, 100%, 50%, 0.548);
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1 class="header1">This is CSS</h1>
+
+    <p>My Name Is Mizue</p>
+
+    <p>I love html &Css</p>
+
+    <p class="interest" id="interestID">Css using Class Name</p>
+
+    <p id="bio">Using a id</p>
+
+    <ul class="nav-links">
+        <li><a href="">Home</a></li>
+        <li><a href="">Menu</a></li>
+        <li><a href="">Blog</a></li>
+    </ul>
+    
+</body>
+</html>

@@ -1,0 +1,21 @@
+.box_sizing-box{
+    width:200px;
+    height:200px;
+    background:#eaeaea;
+    padding: 10px;
+    border:10px solid black;
+    box-sizing: border-box;
+}
+.block{
+        border: 1px solid black;
+        width: 50%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        position:relative;
+        display: auto;
+   
+        
+
+
+}    

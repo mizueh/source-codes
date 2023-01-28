@@ -1,0 +1,71 @@
+h1{
+    font-family:'raleway',sans-serif;
+}
+
+h2{
+    font-family:monospace,sans-serif;
+}
+
+p{
+    font-size:2em;
+}
+
+.fontweight{
+    font-weight:900;
+}
+
+.font-weight-100{
+    font-weight: 100;
+}
+
+.font-weight-500{
+    font-weight:500;
+}
+
+.font-weight-900{
+    font-weight:900;
+}
+
+.normal{
+    font-style:normal;
+}
+
+.italic{
+    font-style:italic;
+}
+
+.oblique{
+    font-style:oblique;
+}
+
+p.uppercase{
+    text-transform:uppercase;
+}
+
+p.lowercase{
+    text-transform: lowercase;
+}
+
+p.capitalize{
+    text-transform: capitalize;
+}
+
+.overline{
+    text-decoration:overline;
+}
+.line-through{
+    text-decoration:line-through;
+}
+.underline{
+    text-decoration:underline;
+}
+
+p.left{
+    text-align:left;
+}
+p.center{
+    text-align:center;
+}
+p.right{
+    text-align:right;
+}

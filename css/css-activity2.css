@@ -1,0 +1,17 @@
+
+
+table{
+    width:100%
+}
+th,td{
+    text-align: left;
+}
+
+th{
+    background: green;
+}
+pseudo element
+
+tr:nth-child(odd){
+    background-color: aqua;
+}
